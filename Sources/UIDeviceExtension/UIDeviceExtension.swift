@@ -1,6 +1,6 @@
 import UIKit
 
-extension UIDevice {
+public extension UIDevice {
     enum DeviceTypes {
         case iPhone4_4s
         case iPhone5_SE
