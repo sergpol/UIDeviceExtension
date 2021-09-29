@@ -1,5 +1,14 @@
 # UIDeviceExtension
+This is a package to determine the iOS device type by it's screen height
 
-This is a package to determine the iOS device type by its screen height
+## Installation
+Install via Swift package manager manually or using Xcode or copy module (or it's code) UIDeviceExtension.swift in you project
 
-Example: if UIDevice.deviceType == iPhone6_7_8 - device is iPhone 6, 7 or 8
+## Usage
+First, import UIDeviceExtension in you module
+The you are make some like this:
+```swift
+if UIDevice.deviceType == .iPhone5_SE {
+  print("This is iPhode 5 or iPhone 5S or iPhone SE")
+}
+```
